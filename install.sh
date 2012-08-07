@@ -447,7 +447,7 @@ do
 	then
 		success=1
 	else
-		(( i += 1 ))
+		(( $i += 1 ))
 	fi
 done
 if [ $success -eq 1 ]
